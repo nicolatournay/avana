@@ -1,3 +1,88 @@
 body {
     background-color: $background;
+    a {
+        text-decoration: none;
+    }
 }
+
+figure {
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto 90px;
+}
+
+section {
+    width: 555px;
+    align-self: flex-start;
+    img {
+        width: 100%;
+    }
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 514px;
+    h1 {
+        color: $dark-title;
+        font-size: 46px;
+        margin: 83px 0 19px;
+    }
+    span {
+        display: block;
+        color: $corail-title;
+        text-transform: lowercase;
+        font-size: 80px;
+    }
+    p {
+        font-size: 20px;
+        color: $paragraph;
+    }
+}
+
+// Homepage (index)
+
+.homepage-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home section {
+    position: relative;
+    figcaption {
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+    }
+    h2 {
+        margin: 10px 0;
+        font-weight: 400;
+        word-spacing: -0.15em;
+        font-size: 30px;
+    }
+    span {
+        font-weight: 800;
+    }
+    p {
+        margin: 0;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 22px;
+    } 
+}
+
+
+
