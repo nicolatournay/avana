@@ -49,12 +49,15 @@ section {
 // Homepage (index)
 
 .homepage-sections {
+    height: 3000px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 .home section {
+    margin-bottom: 30px;
     position: relative;
     figcaption {
         position: absolute;
