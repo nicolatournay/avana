@@ -1,0 +1,50 @@
+.work {
+    img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 800;
+        color: $grey-title;
+        text-transform: capitalize;
+        margin: 20px 0 10px;
+    }
+    a {
+        color: $corail;
+        font-size: 18px;
+        font-weight: 800;
+        padding-top: 3px;
+    }
+    p {
+        color: $grey-p;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 300;
+        margin: 0 0 20px;
+    }
+    strong {
+        font-weight: 800;
+    }
+    i {
+        color: #0d0d0d;
+        padding-left: 10px;
+    }
+}
+
+.work .first-row {
+    padding-top: 69px;
+}
+
+.projetc-name {
+    width: 33%;
+}
+
+.projetc-description {
+    width: 67%;
+}
+
+.project-pics {
+    width: 75vw;
+    padding-bottom: 90px;
+}
