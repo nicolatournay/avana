@@ -10,12 +10,12 @@ figure {
 }
 
 .container {
-    width: 1140px;
+    width: 75vw;
     margin: 0 auto 90px;
 }
 
 section {
-    width: 555px;
+    width: 46%;
     align-self: flex-start;
     img {
         width: 100%;
@@ -24,7 +24,7 @@ section {
 
 .first-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .intro {
@@ -46,46 +46,6 @@ section {
     }
 }
 
-// Homepage (index)
-
-.homepage-sections {
-    height: 3000px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-between;
-}
-
-.home section {
-    margin-bottom: 30px;
-    position: relative;
-    figcaption {
-        position: absolute;
-        top: 150px;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        color: #fff;
-        text-transform: uppercase;
-        display: block;
-        width: 100%;
-    }
-    h2 {
-        margin: 10px 0;
-        font-weight: 400;
-        word-spacing: -0.15em;
-        font-size: 30px;
-    }
-    span {
-        font-weight: 800;
-    }
-    p {
-        margin: 0;
-        letter-spacing: 1px;
-        font-size: 16px;
-        line-height: 22px;
-    } 
-}
 
 
 
