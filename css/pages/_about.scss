@@ -1,0 +1,53 @@
+.about {
+    span {
+       text-transform: capitalize; 
+    }
+    .first-row section {
+        width: 50%;
+    }
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 16px 0 27px;
+        background-color: $corail-title;
+        text-align: center;
+        color: #fff;
+        width: 228px;
+        h2 {
+            margin: 20px 0 10px;
+            padding: 0;
+            font-size: 21px;
+            line-height: 22px;
+            font-weight: 300;
+        }
+        p {
+            margin: 10px 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 13px;
+            line-height: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+.about-description {
+    background-color: $corail-title;
+    padding: 57px 67px 58px 70px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.our-team {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    section {
+        width: 31%;
+        position: relative;
+    }
+}
