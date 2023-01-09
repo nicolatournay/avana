@@ -19,6 +19,9 @@
 }
 
 .blog {
+    span {
+        text-transform: capitalize;
+    }
     figure {
         position: relative;
         img {
@@ -34,6 +37,9 @@
     }
     .flex-sections {
         height: 3500px;
+    }
+    .intro {
+        height: 541px;
     }
 }
 
